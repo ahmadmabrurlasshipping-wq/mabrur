@@ -203,6 +203,21 @@ Untuk reset ke data awal, hapus `las_data` dari localStorage browser.
 
 -----
 
+
+## ☁️ Deploy ke Cloudflare
+
+Project ini paling cocok di-deploy menggunakan **Cloudflare Pages** karena saat ini berbentuk aplikasi statis single-file.
+
+- Panduan langkah-demi-langkah tersedia di `CLOUDFLARE.md`.
+- Konfigurasi Wrangler tersedia di `wrangler.toml`.
+- Header keamanan untuk Pages tersedia di `_headers`.
+
+Deploy cepat:
+
+```bash
+npx wrangler pages deploy . --project-name las-fleet-monitoring
+```
+
 ## 🔮 Rencana Pengembangan (Roadmap)
 
 ### Phase 2 — Backend Integration
