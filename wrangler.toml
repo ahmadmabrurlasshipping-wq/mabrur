@@ -1,0 +1,6 @@
+name = "las-fleet-monitoring"
+compatibility_date = "2026-04-24"
+
+# Cloudflare Pages configuration.
+# Wrangler will deploy the repository root as static assets.
+pages_build_output_dir = "."
